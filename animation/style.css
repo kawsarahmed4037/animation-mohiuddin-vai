@@ -1,0 +1,170 @@
+*{margin:0;padding:0}
+a{
+	text-decoration:none;
+}
+.wrap{
+	width:100%;
+	background:red;
+	
+}
+.wrapper{
+	width:85%;
+	background:green;
+	justify-content:center;
+	margin:auto;
+}
+.header{
+		width:100%;
+		display:flex;
+		align-items:center;
+		background:#d2dae2;
+		justify-content:space-between;
+		padding-top:10px;
+}
+.header .contack-menu h1 a{
+		color:#192a56;
+		font-size:60px;
+		 
+	
+}
+.header .contack-menu h1 a .span{
+		color:#FC427B;
+	
+}
+.nav-menu ul{
+	list-style:none;
+	display:flex;	
+}
+nav ul li{
+	margin:5px;
+	
+}
+
+.nav-menu ul li a{
+		color:#192a56;
+		font-family: Open Sans;
+		padding:5px;
+		letter-spacing:1px;
+		font-weight:bold;
+		transition:all .50s ease;
+}
+nav ul:hover a{ color:#8395a7/*#079992#079992#706fd3**/;
+			transition:all .50s ease;
+
+}
+nav ul a:hover{ color:#FC427B;
+				
+}
+/******************/
+.full-banner{
+	width:100%;
+	height:600px;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	
+}
+
+.banner h1{
+	font-size:50px;
+font-family: Kaushan Script, cursive;
+	color:#0a5287;
+	font-weight:bold;
+	
+}
+.web-developer{
+	position:relative;
+	display:inline-block;
+}
+.web-developer:after{
+		content:"";
+		position:absolute;
+		top:0;
+		left:100%;
+		width:100%;
+		height:105%;
+		background:#d2dae2;
+		
+		border-left:2px solid #FC427B;
+		
+		animation-name:ahmed;
+		animation-duration:2.5s;
+		animation-iteration-count:infinite;
+		/*animation-delay:1s;*/
+		animation-direction:1; 
+	
+}
+@keyframes ahmed{
+	/*form{left:0;}
+	to{left:-1%};*/
+	0%{left:0;top:0}
+	30%{left:105%;top:0}
+	70%{left:105%;top:0}
+	100%{left:0;top:0}
+}
+.hi-kawsar{
+	 position:relative;
+	animation-name:abdul;
+		animation-duration:2s;
+		animation-iteration-count:1;
+		/*animation-delay:1s;*/
+		animation-direction:1;
+		
+		
+}
+@keyframes abdul{
+	from{top:250px;z-index:-1;}
+	to{top:0;}
+	
+
+}
+.web-developer{
+	 position:relative;
+	animation-name:abdl;
+		animation-duration:2.5s;
+		animation-iteration-count:1;
+		animation-direction:1;
+		
+		
+}
+		
+@keyframes abdl{
+	from{top:300px;z-index:-1}
+	to{top:0;}
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************/
+.full-banner img{
+	width:455px;
+	vertical-align:middle;
+	
+}
+.banner-img{
+	position:absolute;
+	right:7%;
+	margin-top:1.50%;
+	animation-name:kawsar;
+		animation-duration:3s;
+		animation-iteration-count:1;
+		/*animation-delay:1s;*/
+		animation-direction:1;
+		
+}
+@keyframes kawsar{
+	from{right:-40%;}
+	to{right:7%;}
+
+}
